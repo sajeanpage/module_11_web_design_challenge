@@ -50,7 +50,7 @@ body {
   color: #fff;
 
   /* Visual */
-  background: #4a58aa;
+  background: #2f70a5;
 }
 
 /* Logo hover state */
@@ -71,13 +71,13 @@ body {
 
 /* Nav element hover state */
 .navbar-default .navbar-nav > li > a:hover {
-  color: #4a58aa;
+  color: #2f70a5;
 }
 
 /* Media query for nav */
 @media only screen and (max-width: 767px) {
   .navbar-header {
-    background-color: #4a58aa;
+    background-color: #2f70a5;
   }
 
   #logo {
@@ -98,7 +98,7 @@ body {
     color: #fff;
 
     /* Visual */
-    background: #4a58aa;
+    background: #2f70a5;
   }
 }
 
@@ -113,7 +113,7 @@ body {
   /* Typography */
   font-size: 32px;
   font-weight: bold;
-  color: #4a58aa;
+  color: #2f70a5;
 }
 
 .description-content {
@@ -189,7 +189,7 @@ body {
   /* Typography */
   font-size: 25px;
   font-weight: bold;
-  color: #4a58aa;
+  color: #2f70a5;
 }
 
 .imageNav-photo {
@@ -206,7 +206,7 @@ body {
 
 .imageNav-photo.active {
   /* Visuals */
-  border: 2px solid #4a58aa;
+  border: 2px solid #2f70a5;
 }
 
 #images {
@@ -232,7 +232,7 @@ body {
   /* Typography */
   font-size: 20px;
   font-weight: bold;
-  color: #4a58aa;
+  color: #2f70a5;
   text-align: center;
 }
 
@@ -267,7 +267,7 @@ body {
   padding-top: 3px;
 
   /* Visual */
-  background-color: #4a58aa;
+  background-color: #2f70a5;
 }
 
 /* ----FOOTER END---- */
