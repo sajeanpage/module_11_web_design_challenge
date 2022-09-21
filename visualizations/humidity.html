@@ -17,6 +17,15 @@
   </head>
 
   <body>
+    <!-- Boostrap Stylesheet -->
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css" media="screen">
+
+    <!-- Our own CSS stylesheet -->
+    <link rel="stylesheet" href="../assets/css/styles.css" media="screen">
+
+  </head>
+
+  <body>
     <!-- Start of navbar -->
     <nav class="navbar navbar-default">
       <div class="container-fluid navbar-custom">
@@ -41,7 +50,7 @@
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
                 <ul class="dropdown-menu">
-                 <li><a href="temp.html">Max Temperature</a></li>
+                  <li><a href="temp.html">Max Temperature</a></li>
                   <li><a href="humidity.html">Humidity</a></li>
                   <li><a href="cloudiness.html">Cloudiness</a></li>
                   <li><a href="wind.html">Wind Speed</a></li>
@@ -50,14 +59,54 @@
               <li><a href="comparison.html">Comparison</a></li>
               <li><a href="data.html">Data</a></li>
             </ul>
-          </div><!-- /.navbar-collapse -->
+          </div>
+          <!-- /.navbar-collapse -->
         </div>
-      </div><!-- /.container-fluid -->
+      </div>
+      <!-- /.container-fluid -->
     </nav>
     <!-- End of navbar -->
 
     <!-- Start of container -->
-   
+    <div class="container">
+      <section class ="row">
+        <div class = "col-md-8">
+          <article class="description-content">
+            <h1 class =" description-header"> Summary: Latitude vs. Humidity</h1>
+            <hr class = "description-hr"/>
+            <img src = "../assets/images/latitude_humidity.png" title = "Latitude vs. Humidity" alt = "" id = "description-image"/>
+            <p></p>
+            <p>On 7/26/2022, there did not appear to be an observable relationship between cities' latitudes and the percentage humidity.</p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+          </article>
+        </div>
+        <div class = "col-md-4">
+          <section id = "imageNav-area">
+            <div class="imageNav-content">
+              <h2 class="imageNav-header"> Visualizations </h2>
+              <hr>
+              <div id="images">
+                <a href="temp.html">
+                  <img src = "../assets/images/latitude_temperature.png" title = "Latitude vs. Max Temp" alt = "Latitude vs. Max Temp" class = "imageNav-photo"/>
+                </a>
+                <a href="humidity.html">
+                  <img src = "../assets/images/latitude_humidity.png" title = "Latitude vs. Humidity" alt = "Latitude vs. Humidity" class = "imageNav-photo"/>
+                </a>
+                <a href="cloudiness.html">
+                  <img src = "../assets/images/latitude_cloudiness.png" title = "Latitude vs. Cloudiness" alt = "Latitude vs. Cloudiness" class = "imageNav-photo"/>
+                </a>
+                <a href="wind.html">                  
+                  <img src = "../assets/images/latitude_windspeed.png" title = "Latitude vs Wind Speed" alt = "Latitude vs Wind Speed" class = "imageNav-photo"/>
+                </a>
+              </div>
+            </div>
+          </section>
+        </div>
+      </section>
+    </div>
     <!-- End of container -->
 
     <!-- Start of footer -->
