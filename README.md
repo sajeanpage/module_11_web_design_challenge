@@ -6,13 +6,16 @@ Analyzing the weather data is great but, how can we show off our hard work?  In 
   - a responsive home page with a drop down click menu
   - visualization pages for key concepts
   - clickable images for easy navigation
+
 - Key technologies include:
   - BootStrap js library
   - Cascading Style Sheets CSS
   - Jupyter Notebook with Pandas
   - Github Pages
 
-Visit the final form here: https://sajeanpage.github.io/module_11_web_design_challenge/
+
+- Visit the final form here: 
+  - https://sajeanpage.github.io/module_11_web_design_challenge/
 # ![banner](https://github.com/sajeanpage/module_11_web_design_challenge/blob/main/assets/images/weather_banner.PNG)
 
 
