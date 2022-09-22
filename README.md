@@ -1,10 +1,18 @@
 # Module 11 - Web Design Challenge
 ## Summary
 
-- I've decided to treat myself to a long holiday vacation in Honolulu, Hawaii. To help with the trip planning, I decided to do a climate analysis about the area.  What I found is that it rains pretty frequently in Hawaii with average rainfall approaching 1 inch per day and, on most days the temperature is between 73 and 78F.  In the process of my analysis I created a handy app to evaluate the weather.
+Analyzing the weather data is great but, how can we show off our hard work?  In this challenge I built an interactive web page that allows viewers to easily navigate the layers of my work.  
+- The site contains:
+  - a responsive home page with a drop down click menu
+  - visualization pages for key concepts
+  - clickable images for easy navigation
+- Key technologies include:
+  - BootStrap js library
+  - Cascading Style Sheets CSS
+  - Jupyter Notebook with Pandas
+  - Github Pages
+
+
 # ![banner](https://github.com/sajeanpage/module_11_web_design_challenge/blob/main/assets/images/weather_banner.PNG)
-## 12 Month Rainfall
-![precipitatioin_bars](/SurfsUp/precipitation_bars.jpg)
-## 12 Month Temperature
-![most_active_histogram](/SurfsUp/most_active_histogram.jpg)
+
 
